@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+}
+
+.attribution {
+    font-size: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(0, 94%, 66%);
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
