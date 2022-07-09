@@ -15,16 +15,42 @@
         <div class="nav__logo">
             <img src="img/logo-bookmark.svg" alt="bookmark logo">
         </div>
-        <div>
-            <ul class="nav__lists">
-                <li class="nav__item"><a href="#">Features</a></li>
-                <li class="nav__item"><a href="#">Pricing</a></li>
-                <li class="nav__item"><a href="#">Contact</a></li>
-            </ul>
-            <button class="btn btn__nav">Login</button>
-            <img src="img/icon-hamburger.svg" alt="hamburger icon" class="menu--bar">
+        <div class="nav__menu--none">
+            <div class="nav__menu--flex">
+                <ul class="nav__lists">
+                    <li class="nav__item"><a href="#">Features</a></li>
+                    <li class="nav__item"><a href="#">Pricing</a></li>
+                    <li class="nav__item"><a href="#">Contact</a></li>
+                </ul>
+                <div>
+                    <button class="btn btn__nav">Login</button>
+                </div>
+            </div>
+        </div>
+        <div id="menu__bar">
+            <img src="img/icon-hamburger.svg" alt="hamburger icon">
         </div>
     </nav>
+    <article class="mobile__modal">
+        <div class="mobile__menu">
+            <div class="mobile__menu--header">
+                <img src="img/logo--white.svg" alt="bookmark logo">
+                <img src="img/icon-close.svg" alt="close icon" class="close__menu">
+            </div>
+            <div class="mobile__menu--content">
+                <ul class="mobile__menu--lists">
+                    <li class="mobile__menu--item"><a href="#">Features</a></li>
+                    <li class="mobile__menu--item"><a href="#">Pricing</a></li>
+                    <li class="mobile__menu--item"><a href="#">Contact</a></li>
+                </ul>
+                <button class="btn btn__mobile">Login</button>
+            </div>
+            <div class="mobile__menu--icons">
+                <img src="img/icon-facebook.svg" alt="facebook icon">
+                <img src="img/icon-twitter.svg" alt="twitter icon">
+            </div>
+        </div>
+    </article>
     <footer>
         <div class="attribution">
             Challenge by <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub/huddle-landing-page-with-a-single-introductory-section-6Fr7r07m_" target="_blank">Frontend Mentor</a>. Coded
