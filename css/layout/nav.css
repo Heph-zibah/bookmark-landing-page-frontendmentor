@@ -91,6 +91,9 @@ nav {
         text-transform: uppercase;
         font-weight: 500;
     }
+    .nav__item a:hover {
+        color: var(--softRed);
+    }
     .nav__menu--none {
         display: block;
     }
@@ -111,5 +114,8 @@ nav {
     }
     .nav__item {
         margin-right: 40px;
+    }
+    .btn__nav {
+        padding: 10px 25px;
     }
 }

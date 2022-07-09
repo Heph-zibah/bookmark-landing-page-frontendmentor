@@ -5,6 +5,13 @@
     font-weight: 500;
     border: none;
     padding: 10px;
+    transition: .5s;
+}
+
+.btn__nav:hover {
+    border: 1px solid var(--softRed);
+    background: var(--white);
+    color: var(--softRed);
 }
 
 .btn__mobile {

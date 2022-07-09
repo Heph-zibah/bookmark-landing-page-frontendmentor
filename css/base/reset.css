@@ -10,6 +10,16 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    transition: 1s;
+    cursor: pointer;
+}
+
 li {
     list-style-type: none;
 }
