@@ -1,11 +1,30 @@
+.btn {
+    border: none;
+    background: none;
+    border-radius: 5px;
+}
+
+.primary--btn {
+    background: var(--softBlue);
+    padding: 15px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.secondary--btn {
+    background: var(--white);
+    box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    color: var(--grayishBlue);
+    font-weight: 600;
+}
+
 .btn__nav {
     background-color: var(--softRed);
     color: var(--white);
     text-transform: uppercase;
     font-weight: 500;
-    border: none;
     padding: 10px;
-    transition: .5s;
 }
 
 .btn__nav:hover {
@@ -15,14 +34,12 @@
 }
 
 .btn__mobile {
-    background: none;
     color: var(--white);
     width: 100%;
     text-transform: uppercase;
     border: 2px solid var(--white);
     padding: 10px;
     margin-top: 15px;
-    border-radius: 5px;
     font-weight: 500;
     font-size: var(--font-size);
 }
