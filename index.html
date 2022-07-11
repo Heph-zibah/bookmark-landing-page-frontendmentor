@@ -11,11 +11,14 @@
 </head>
 
 <body>
-    <nav>
+    <!-- HEADER STARTS -->
+    <header>
         <div class="nav__logo">
             <img src="img/logo-bookmark.svg" alt="bookmark logo">
         </div>
-        <div class="nav__menu--none">
+
+        <!-- NAV MENU STARTS-->
+        <nav class="nav__menu--none">
             <div class="nav__menu--flex">
                 <ul class="nav__lists">
                     <li class="nav__item"><a href="#">Features</a></li>
@@ -25,33 +28,41 @@
                 <div>
                     <button class="btn btn__nav">Login</button>
                 </div>
-            </div>
+        </nav>
         </div>
         <div id="menu__bar">
             <img src="img/icon-hamburger.svg" alt="hamburger icon">
         </div>
-    </nav>
-    <article class="mobile__modal">
-        <div class="mobile__menu">
-            <div class="mobile__menu--header">
-                <img src="img/logo--white.svg" alt="bookmark logo">
-                <img src="img/icon-close.svg" alt="close icon" class="close__menu">
-            </div>
-            <div class="mobile__menu--content">
-                <ul class="mobile__menu--lists">
-                    <li class="mobile__menu--item"><a href="#">Features</a></li>
-                    <li class="mobile__menu--item"><a href="#">Pricing</a></li>
-                    <li class="mobile__menu--item"><a href="#">Contact</a></li>
-                </ul>
-                <button class="btn btn__mobile">Login</button>
-            </div>
-            <div class="mobile__menu--icons">
-                <img src="img/icon-facebook.svg" alt="facebook icon">
-                <img src="img/icon-twitter.svg" alt="twitter icon">
+        <!-- NAV MANU ENDS -->
+
+        <!-- MOBILE MENU STARTS-->
+        <div class="mobile__modal">
+            <div class="mobile__menu">
+                <div class="mobile__menu--header">
+                    <img src="img/logo--white.svg" alt="bookmark logo">
+                    <img src="img/icon-close.svg" alt="close icon" class="close__menu">
+                </div>
+                <div class="mobile__menu--content">
+                    <ul class="mobile__menu--lists">
+                        <li class="mobile__menu--item"><a href="#">Features</a></li>
+                        <li class="mobile__menu--item"><a href="#">Pricing</a></li>
+                        <li class="mobile__menu--item"><a href="#">Contact</a></li>
+                    </ul>
+                    <button class="btn btn__mobile">Login</button>
+                </div>
+                <div class="mobile__menu--icons">
+                    <img src="img/icon-facebook.svg" alt="facebook icon">
+                    <img src="img/icon-twitter.svg" alt="twitter icon">
+                </div>
             </div>
         </div>
-    </article>
+        <!-- MOBILE MENU ENDS -->
+    </header>
+    <!-- HEADER ENDS -->
+
+    <!-- MAIN STARTS -->
     <main>
+        <!-- HERO SECTION STARTS -->
         <div class="hero">
             <div class="hero__img">
                 <img src="img/illustration-hero.svg" alt="illustration">
@@ -65,7 +76,99 @@
                 </div>
             </div>
         </div>
+        <!-- HERO SECTION ENDS -->
+
+        <!-- FEATURE SECTION STARTS -->
+        <div class="feature">
+            <div class="feature__header">
+                <h1>Features</h1>
+                <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            </div>
+            <div class="feature__menu">
+                <button class="btn feature__link active">Simple Bookmarking</button>
+                <button class="btn feature__link">Speedy Searching</button>
+                <button class="btn feature__link">Easy Sharing</button>
+            </div>
+            <div class="feature__body active">
+                <div class="feature__img">
+                    <img src="img/illustration-features-tab-1.svg" alt="illustration">
+                </div>
+                <div class="feature__content">
+                    <h3>Bookmark in one click</h3>
+                    <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                    <button class="btn feature__btn"> More Info</button>
+                </div>
+            </div>
+            <div class="feature__body">
+                <div class="feature__img">
+                    <img src="img/illustration-features-tab-2.svg" alt="illustration">
+                </div>
+                <div class="feature__content">
+                    <h3>Intelligent search</h3>
+                    <p> Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                    <button class="btn feature__btn"> More Info</button>
+                </div>
+            </div>
+            <div class="feature__body">
+                <div class="feature__img">
+                    <img src="img/illustration-features-tab-3.svg" alt="illustration">
+                </div>
+                <div class="feature__content">
+                    <h3>Share your bookmarks </h3>
+                    <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                    <button class="btn feature__btn"> More Info</button>
+                </div>
+            </div>
+        </div>
+        <!-- FEATuRE SECTION ENDS -->
+
+        <!-- DOWNLOAD SECTION STARTS -->
+        <div class="download">
+            <div class="download__header">
+                <h1> Download the extension</h1>
+                <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+            </div>
+        </div>
+        <div class="download__body">
+            <div class="download__card">
+                <div class="download__img">
+                    <img src="img/logo-chrome.svg" alt="chrome logo">
+                </div>
+                <div class="download__card--content">
+                    <h4>Add to Chrome</h4>
+                    <p> Minimum version 62 </p>
+                    <img src="img/bg-dots.svg" alt="dots">
+                    <button class="btn download__btn">Add & Install Extension</button>
+                </div>
+            </div>
+            <div class="download__card">
+                <div class="download__img">
+                    <img src="img/logo-firefox.svg" alt="firefox logo">
+                </div>
+                <div class="download__card--content">
+                    <h4>Add to Firefox</h4>
+                    <p> Minimum version 55 </p>
+                    <img src="img/bg-dots.svg" alt="dots">
+                    <button class="btn download__btn">Add & Install Extension</button>
+                </div>
+            </div>
+            <div class="download__card">
+                <div class="download__img">
+                    <img src="img/logo-opera.svg" alt="opera logo">
+                </div>
+                <div class="download__card--content">
+                    <h4>Add to Opera</h4>
+                    <p> Minimum version 46 </p>
+                    <img src="img/bg-dots.svg" alt="dots">
+                    <button class="btn download__btn">Add & Install Extension</button>
+                </div>
+            </div>
+        </div>
+        <!-- DOWNLOAD SECTION ENDS -->
     </main>
+    <!-- MAIN ENDS -->
+
+    <!-- FOOTER STARTS -->
     <footer>
         <div class="attribution">
             Challenge by <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub/huddle-landing-page-with-a-single-introductory-section-6Fr7r07m_" target="_blank">Frontend Mentor</a>. Coded
@@ -73,6 +176,7 @@
             <a href="https://www.frontendmentor.io/profile/Heph-zibah" target="_blank">Oluwatosin Abigail Ogundeji</a>.
         </div>
     </footer>
+    <!-- FOOTER ENDS -->
 
     <script src="js/app.js"></script>
 </body>

@@ -3,6 +3,7 @@
 @import "./components/button.css";
 @import "./layout/footer.css";
 @import "./layout/main-hero.css";
-@import "./layout/nav.css";
+@import "./layout/main-features.css";
+@import "./layout/header.css";
 @import "./utils/utilities.css";
 @import "./utils/variables.css";

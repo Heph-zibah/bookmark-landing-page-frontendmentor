@@ -7,45 +7,45 @@
 
 .hero__img {
     width: 100%;
-    margin-top: 10px;
+    margin-top: .6rem;
     position: relative;
 }
 
 .hero__img:before {
     content: "";
     position: absolute;
-    bottom: 94px;
+    bottom: 5.9rem;
     right: 0;
     width: 72%;
     height: 51%;
     background: var(--softBlue);
-    border-radius: 180px 0 0 180px;
+    border-radius: 11.3rem 0 0 11.3rem;
     z-index: -1;
 }
 
 .hero__img img {
     width: 100%;
-    padding-bottom: 90px;
+    padding-bottom: 5.6rem;
 }
 
 .hero__body {
-    padding: 0 15px;
+    padding: 0 .9rem;
     text-align: center;
 }
 
 .hero__body p {
-    margin-top: 20px;
+    margin-top: 1.3rem;
 }
 
 .hero__btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.3rem;
 }
 
 .hero__btn button:last-child {
-    margin-left: 20px;
+    margin-left: 1.3rem;
 }
 
 @media screen and (min-width:481px) {
@@ -66,6 +66,7 @@
         flex-direction: row-reverse;
         align-items: flex-start;
         justify-content: flex-start;
+        margin-top: 1.3rem;
     }
     .hero__body {
         padding: var( --desktop-padding);

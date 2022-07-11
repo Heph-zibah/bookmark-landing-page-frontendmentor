@@ -5,10 +5,10 @@
     --veryDarkBlue: hsl(229, 31%, 21%);
     --white: #fff;
     --font-family: 'Rubik', sans-serif;
-    --font-size: 18px;
-    --mobile-padding: 50px 30px;
-    --tab-padding: 50px 60px;
-    --smallscreen-padding: 50px 70px;
-    --desktop-padding: 50px 90px;
-    --largescreen-padding: 50px 130px;
+    --font-size: 1.13rem;
+    --mobile-padding: 3.13rem 1.8rem;
+    --tab-padding: 3.13rem 4rem;
+    --smallscreen-padding: 3.13rem 4.4rem;
+    --desktop-padding: 3.13rem 5.6rem;
+    --largescreen-padding: 3.13rem 8.13rem;
 }

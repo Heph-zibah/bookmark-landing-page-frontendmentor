@@ -1,0 +1,122 @@
+.feature {
+    margin-top: 50px;
+}
+
+.feature__header {
+    text-align: center;
+    padding: 11px;
+}
+
+.feature__header p {
+    margin: 20px 0 40px 0;
+}
+
+.feature__img {
+    width: 100%;
+    position: relative;
+}
+
+.feature__img img {
+    width: 100%;
+    padding: 20px;
+    padding: var(--mobile-padding);
+}
+
+.feature__img:before {
+    content: "";
+    position: absolute;
+    top: 7.9rem;
+    left: 0;
+    width: 72%;
+    height: 61%;
+    background: var(--softBlue);
+    border-radius: 0 11.3rem 11.3rem 0;
+    z-index: -1;
+}
+
+.feature__menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.feature__content {
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 11px;
+}
+
+.feature__body {
+    margin-top: 50px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature__body.active {
+    display: flex;
+}
+
+@media screen and (min-width:481px) {
+    .feature__img img {
+        padding: var(--tab-padding);
+    }
+    .feature__content {
+        padding: 30px 4rem;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .feature__menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature__header {
+        padding: var( --smallscreen-padding);
+    }
+    .feature__header p {
+        margin: 20px 0 0 0;
+    }
+    .feature__body {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature__content {
+        text-align: start;
+        padding: 0 4.4rem;
+        width: 100%;
+    }
+    .feature__img img {
+        padding: 3rem 0 0 4.4rem;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .feature__content {
+        padding: 0 5.6rem;
+    }
+    .feature__img img {
+        padding: 0 0 7rem 5.6rem;
+    }
+    .feature__img:before {
+        top: 11rem;
+        height: 40%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .feature__content {
+        padding: 0 8.13rem;
+    }
+    .feature__img img {
+        padding: 0 0 8rem 8.13rem;
+    }
+    .feature__img:before {
+        top: 10rem;
+        height: 40%;
+    }
+}

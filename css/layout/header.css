@@ -1,4 +1,4 @@
-nav {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,6 +24,7 @@ nav {
 
 .mobile__modal {
     display: none;
+    z-index: 100;
 }
 
 .mobile__menu {
@@ -41,7 +42,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 3.13rem;
 }
 
 .mobile__menu--lists {
@@ -49,7 +50,7 @@ nav {
 }
 
 .mobile__menu--item {
-    padding: 15px 0;
+    padding: .9rem 0;
     border-top: 1px solid var(--grayishBlue);
     border-bottom: 1px solid var(--grayishBlue);
 }
@@ -63,28 +64,28 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 6.3rem;
 }
 
 .mobile__menu--icons img:last-child {
-    margin-left: 30px;
+    margin-left: 1.9rem;
 }
 
 @media screen and (min-width:481px) {
-    nav {
+    header {
         padding: var(--tab-padding);
     }
 }
 
 @media screen and (min-width:769px) {
-    nav {
+    header {
         padding: var(--smallscreen-padding);
     }
     #menu__bar {
         display: none;
     }
     .nav__item {
-        margin-right: 20px;
+        margin-right: 1.3rem;
     }
     .nav__item a {
         color: var(--veryDarkBlue);
@@ -100,22 +101,22 @@ nav {
 }
 
 @media screen and (min-width:1025px) {
-    nav {
+    header {
         padding: var( --desktop-padding);
     }
     .nav__item {
-        margin-right: 30px;
+        margin-right: 1.9rem;
     }
 }
 
 @media screen and (min-width:1200px) {
-    nav {
+    header {
         padding: var( --largescreen-padding);
     }
     .nav__item {
-        margin-right: 40px;
+        margin-right: 3rem;
     }
     .btn__nav {
-        padding: 10px 25px;
+        padding: 0.6rem 1.6rem;
     }
 }
