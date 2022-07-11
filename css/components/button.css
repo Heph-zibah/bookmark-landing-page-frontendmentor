@@ -114,3 +114,17 @@
         display: flex;
     }
 }
+
+.download__btn {
+    margin: 10px;
+    background: var(--softBlue);
+    padding: .9rem;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.download__btn:hover {
+    background: var(--white);
+    color: var(--softBlue);
+    border: 1px solid var(--softBlue);
+}
