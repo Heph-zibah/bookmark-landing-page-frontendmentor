@@ -128,3 +128,22 @@
     color: var(--softBlue);
     border: 1px solid var(--softBlue);
 }
+
+.faq__btn {
+    background: var(--softBlue);
+    color: var(--white);
+    padding: 10px;
+    /* margin-top: 20px; */
+}
+
+.faq__btn:hover {
+    background: var(--white);
+    color: var(--softBlue);
+    border: 1px solid var(--softBlue);
+}
+
+.form__btn {
+    color: var(--white);
+    background: var(--softRed);
+    padding: 15px;
+}

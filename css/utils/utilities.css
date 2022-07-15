@@ -1,13 +1,68 @@
+.cta__div {
+    background: var(--softBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta {
+    padding: 50px 0;
+}
+
+.cta p {
+    color: var(--white);
+}
+
+.cta p:first-child {
+    text-transform: uppercase;
+}
+
+.cta__form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cta__form input {
+    padding: 15px;
+    border-radius: 4px 4px 0 0;
+    border: 0;
+}
+
+.cta__form img {
+    width: 30px;
+    position: absolute;
+}
+
+.cta__form small {
+    text-align: start;
+    background: var(--softRed);
+    color: var(--white);
+    font-style: italic;
+    border-radius: 0 0 4px 4px;
+    padding: 5px;
+}
+
 @media screen and (min-width:481px) {
     /* padding: var(--tab-padding); */
 }
 
 @media screen and (min-width:769px) {
     /* padding: var(--smallscreen-padding); */
+    .cta__form form {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width:1025px) {
     /* padding: var( --desktop-padding); */
+    .cta {
+        width: 500px;
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width:1200px) {
