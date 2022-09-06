@@ -1,6 +1,6 @@
 # Frontend Mentor - Bookmark landing page solution
 
-This is a solution to the [Bookmark landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Bookmark landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -10,9 +10,7 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -30,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./design/screenshot.png)
 
 ### Links
 
@@ -47,28 +45,10 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 ### Continued development
 
-### Useful resources
-
-- [Example resource 1](https://www.frontendmentor.io/solutions/bookmark-landing-page-solution-html-css-js-D84xzrCrg) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://github.com/Paienobe/Bookmark-Landing-Page) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Tailwind css
+- custom css
 
 ## Author
 
