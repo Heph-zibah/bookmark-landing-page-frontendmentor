@@ -20,9 +20,17 @@ footer {
     text-transform: uppercase;
 }
 
+.footer__item a:hover {
+    color: var(--softRed);
+}
+
 .footer__icon {
     display: flex;
     column-gap: 20px;
+}
+
+.footer__icon a:hover img {
+    background: var(--softRed);
 }
 
 .attribution {

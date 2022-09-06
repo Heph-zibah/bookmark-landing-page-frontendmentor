@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Bookmark Landing Page | Frontend Mentor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
     <link rel="stylesheet" href="css/style.css">
@@ -85,11 +86,11 @@
                 <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
             </div>
             <div class="feature__menu">
-                <button class="btn feature__link active">Simple Bookmarking</button>
-                <button class="btn feature__link">Speedy Searching</button>
-                <button class="btn feature__link">Easy Sharing</button>
+                <button class="btn feature__link active" data-id="simple" role="button">Simple Bookmarking</button>
+                <button class="btn feature__link" data-id="speedy" role="button">Speedy Searching</button>
+                <button class="btn feature__link" data-id="easy" role="button">Easy Sharing</button>
             </div>
-            <div class="feature__body active">
+            <div class="feature__body active" id="simple">
                 <div class="feature__img">
                     <img src="img/illustration-features-tab-1.svg" alt="illustration">
                 </div>
@@ -99,7 +100,7 @@
                     <button class="btn feature__btn"> More Info</button>
                 </div>
             </div>
-            <div class="feature__body">
+            <div class="feature__body" id="speedy">
                 <div class="feature__img">
                     <img src="img/illustration-features-tab-2.svg" alt="illustration">
                 </div>
@@ -109,7 +110,7 @@
                     <button class="btn feature__btn"> More Info</button>
                 </div>
             </div>
-            <div class="feature__body">
+            <div class="feature__body" id="easy">
                 <div class="feature__img">
                     <img src="img/illustration-features-tab-3.svg" alt="illustration">
                 </div>
@@ -183,7 +184,7 @@
                 <div class="faq">
                     <div class="faq__question">
                         <p>What is Bookmark?</p>
-                        <img src="img/icon-arrow.svg" alt="arrow icon">
+                        <img src="img/icon-arrow.svg" alt="arrow icon" class="faq__img">
                     </div>
                     <div class="faq__answer">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
@@ -192,7 +193,7 @@
                 <div class="faq">
                     <div class="faq__question">
                         <p>How can I request a new browser?</p>
-                        <img src="img/icon-arrow.svg" alt="arrow icon">
+                        <img src="img/icon-arrow.svg" alt="arrow icon" class="faq__img">
                     </div>
                     <div class="faq__answer">
                         <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus
@@ -202,7 +203,7 @@
                 <div class="faq">
                     <div class="faq__question">
                         <p>Is there a mobile app?</p>
-                        <img src="img/icon-arrow.svg" alt="arrow icon">
+                        <img src="img/icon-arrow.svg" alt="arrow icon" class="faq__img">
                     </div>
                     <div class="faq__answer">
                         <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.
@@ -212,7 +213,7 @@
                 <div class="faq">
                     <div class="faq__question">
                         <p>What about other Chromium browsers?</p>
-                        <img src="img/icon-arrow.svg" alt="arrow icon">
+                        <img src="img/icon-arrow.svg" alt="arrow icon" class="faq__img">
                     </div>
                     <div class="faq__answer">
                         <p> Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
@@ -228,12 +229,16 @@
         <div class="cta__div">
             <div class="cta">
                 <p>35,000+ already joined</p>
-                <p> Stay up-to-date with what we’re doing</p>
+                <h2> Stay up-to-date with what <br> we’re doing</h2>
                 <form class="cta__form">
-                    <input type="email" placeholder="Enter your email address">
-                    <small>Whoops! Make sure it's an email</small>
-                    <img src="img/icon-error.svg" alt="error icon">
-                    <button class="btn form__btn" type="submit">Contact Us</button>
+                    <div>
+                        <input type="email" placeholder="Enter your email address" id="email">
+                        <small class="error">Whoops! Make sure it's an email</small>
+                        <img src="img/icon-error.svg" alt="error icon" class="error__icon">
+                    </div>
+                    <div class="cta__button">
+                        <button class="btn form__btn" type="submit">Contact Us</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -254,8 +259,8 @@
                 </ul>
             </div>
             <div class="footer__icon">
-                <img src="img/icon-facebook.svg" alt="facebook icon">
-                <img src="img/icon-twitter.svg" alt="twitter icon">
+                <a href="#"><img src="img/icon-facebook.svg" alt="facebook icon"></a>
+                <a href="#"><img src="img/icon-twitter.svg" alt="twitter icon"></a>
             </div>
         </div>
         <div class="attribution">

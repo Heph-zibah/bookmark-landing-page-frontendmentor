@@ -1,6 +1,5 @@
 .faq__container {
-    margin-bottom: 50px;
-    margin: 50px auto;
+    margin: 100px auto 50px auto;
 }
 
 .faq__header {
@@ -47,11 +46,11 @@
     justify-content: center;
 }
 
-.faq.active .faq-ans {
+.faq.active .faq__answer {
     display: block;
 }
 
-.faq.active .faq-ques img {
+.faq.active .faq__question .faq__img {
     color: var(--soft-red);
     transform: rotate(-180deg);
 }
@@ -60,6 +59,7 @@
     .faq__container {
         width: 500px;
         max-width: 100%;
+        margin: 200px auto 50px auto;
     }
     .faq__body {
         padding: 0;

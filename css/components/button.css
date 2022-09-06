@@ -1,5 +1,6 @@
 .btn {
     border: none;
+    outline: 0;
     background: none;
     border-radius: .3rem;
 }
@@ -63,6 +64,8 @@
     border-bottom: 1px solid var(--grayishBlue);
     position: relative;
     font-weight: 500;
+    color: var(--grayishBlue);
+    font-weight: 600;
 }
 
 .feature__link:hover {
@@ -71,6 +74,10 @@
 
 .feature__link:first-child {
     border-top: 1px solid var(--grayishBlue);
+}
+
+.feature__link.active {
+    color: var( --veryDarkBlue);
 }
 
 .feature__link.active::after {
@@ -146,4 +153,10 @@
     color: var(--white);
     background: var(--softRed);
     padding: 15px;
+}
+
+.form__btn:hover {
+    background: var(--white);
+    color: var(--softRed);
+    border: 2px solid var(--softRed);
 }
