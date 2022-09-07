@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Bookmark Landing Page Solution URL](https://your-solution-url.com)
+- Solution URL: [Bookmark Landing Page Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-with-html-and-css-UX-iPahU1P)
 - Live Site URL: [Bookmark Landing Page Live Site URL](https://bookmark-landingpage-frontendmentor.netlify.app/)
 
 ## My process
